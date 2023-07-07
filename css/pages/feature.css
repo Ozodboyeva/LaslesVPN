@@ -1,0 +1,46 @@
+#features {
+  padding: 100px 0px;
+  background: #fff;
+}
+.feature__items {
+  display: grid;
+  grid-template-columns: 98%;
+}
+.feature__image img {
+  width: 100%;
+}
+.feature__subtitle {
+  margin-top: 50px;
+  color: #0b132a;
+  font-family: Rubik;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px;
+}
+.icon {
+  margin-bottom: 15px;
+}
+.feature__text {
+  margin-top: 20px;
+  color: #4f5665;
+  font-family: Rubik;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  margin-bottom: 20px;
+}
+.green {
+  background-color: #2fab73;
+  border-radius: 70px;
+  color: #fff;
+}
+span {
+  color: #4f5665;
+  font-family: Rubik;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+}

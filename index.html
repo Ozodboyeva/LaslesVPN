@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container navbar">
+        <div class="navbar-logo">
+          <img src="./assets/images/Logo.svg" alt="logo" />
+          <button class="hamburger" id="navbar-open">
+            <img class="img" src="./assets/images/Vector.svg" alt="Hamburger" />
+          </button>
+        </div>
+
+        <div id="navbar-responsive">
+          <ul class="res-header-list">
+            <li class="res-header-item">
+              <a href="#home" class="res-header-link active">Home</a>
+            </li>
+            <li class="res-header-item">
+              <a href="#brand" class="res-header-link">Brands</a>
+            </li>
+            <li class="res-header-item">
+              <a href="#resent-product" class="res-header-link"
+                >Recent Products</a
+              >
+            </li>
+            <li class="res-header-item">
+              <a href="#" class="res-header-link">Contact</a>
+            </li>
+
+            <li class="res-header-item">
+              <a href="#contact" class="res-header-link">About</a>
+            </li>
+          </ul>
+          <button id="navbar-close">
+            <img src="./assets/images/close.svg" alt="close" />
+          </button>
+        </div>
+        <ul class="navbar__items id=nav-links">
+          <li class="navbar__item">
+            <a href="#about" class="navbar__link">About</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#feature" class="navbar__link">Features</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#pricing" class="navbar__link">Pricing</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#testimonials" class="navbar__link">Testimonials</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#help" class="navbar__link">Help</a>
+          </li>
+        </ul>
+        <div class="navbar__href">
+          <a class="navbar-sign" href="#">Sign In</a>
+          <a class="sign up" href="#">Sign Up</a>
+        </div>
+      </div>
+    </header>
+    <!--about section-->
+    <main>
+      <section id="about">
+        <div class="container about__parts">
+          <div class="about__texts-left">
+            <h2 class="about__text-header">
+              Want anything to be easy with LaslesVPN.
+            </h2>
+            <p class="about__text-title">
+              Provide a network for all your needs with ease and fun using
+              LaslesVPN discover interesting features from us.
+            </p>
+            <button class="about__text-btn">Get Started</button>
+          </div>
+          <div class="about__image-right">
+            <img src="./assets/images/illustration.png" alt="illustration" />
+          </div>
+          <div class="about__social">
+            <div class="user">
+              <i class="fa-solid fa-user pink"></i>
+              <div class="user-text">
+                <p class="user-num">90+</p>
+                <p class="user-name">Users</p>
+              </div>
+            </div>
+            <div class="line"></div>
+            <div class="user">
+              <i class="fa-solid fa-location-dot pink"></i>
+              <div class="user-text">
+                <p class="user-num">30+</p>
+                <p class="user-name">Locations</p>
+              </div>
+            </div>
+            <div class="line"></div>
+            <div class="user">
+              <i class="fa-solid fa-server pink"></i>
+              <div class="user-text">
+                <p class="user-num">50+</p>
+                <p class="user-name">Servers</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--about section done-->
+    </main>
+    <!--features section -->
+    <section id="features">
+      <div class="container feature__items">
+        <div class="feature__image">
+          <img src="./assets/images/illust.png" alt="ilust" />
+        </div>
+        <div class="features__texts">
+          <h3 class="feature__subtitle">
+            We Provide Many Features You Can Use
+          </h3>
+          <p class="feature__text">
+            You can explore the features that we provide with fun and have their
+            own functions each feature.
+          </p>
+          <div class="icon">
+            <i class="fa-regular fa-circle-check green"></i>
+            <span>Powerfull online protection.</span>
+          </div>
+          <div class="icon">
+            <i class="fa-regular fa-circle-check green"></i>
+            <span>Internet without borders.</span>
+          </div>
+          <div class="icon">
+            <i class="fa-regular fa-circle-check green"></i>
+            <span>Supercharged VPN</span>
+          </div>
+          <div class="icon">
+            <i class="fa-regular fa-circle-check green"></i>
+            <span>No specific time limits.</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--features section done -->
+    <!--pricing section-->
+    <section id="pricing">
+      <div class="container">
+        <h4 class="pricing__subtitele">Choose Your Plan</h4>
+        <div class="pricing__text">
+          Let's choose the package that is best for you and explore it happily
+          and cheerfully.
+        </div>
+        <div class="pricing__cards">
+          <div class="pricing__card">
+            <img src="./assets/images/Standard.png" alt="free" />
+            <h4 class="free-text">Standard Plan</h4>
+            <div class="free-icons">
+              <i class="fa-solid fa-check"></i>
+              <p class="icon-text">Unlimited Bandwitch</p>
+            </div>
+            <div class="free-icons">
+              <i class="fa-solid fa-check"></i>
+              <p class="icon-text">Encrypted Connection</p>
+            </div>
+            <div class="free-icons">
+              <i class="fa-solid fa-check"></i>
+              <p class="icon-text">Yes Traffic Logs</p>
+            </div>
+            <div class="free-icons">
+              <i class="fa-solid fa-check"></i>
+              <p class="icon-text">Works on All Devices</p>
+            </div>
+            <div class="free-icons">
+              <i class="fa-solid fa-check"></i>
+              <p class="icon-text">Connect Anyware</p>
+            </div>
+            <h3 class="free_header">Free</h3>
+            <button class="fre-btn">Select</button>
+          </div>
+          <div class="pricing__card">
+            <img src="./assets/images/Free.png" alt="free" />
+            <h4 class="free-text">Free Plan</h4>
+            <div class="free-icons">
+              <i class="fa-solid fa-check"></i>
+              <p class="icon-text">Unlimited Bandwitch</p>
+            </div>
+            <div class="free-icons">
+              <i class="fa-solid fa-check"></i>
+              <p class="icon-text">Encrypted Connection</p>
+            </div>
+            <div class="free-icons">
+              <i class="fa-solid fa-check"></i>
+              <p class="icon-text">No Traffic Logs</p>
+            </div>
+            <div class="free-icons">
+              <i class="fa-solid fa-check"></i>
+              <p class="icon-text">Works on All Devices</p>
+            </div>
+            <div class="free-icons">
+              <i class="fa-solid fa-check"></i>
+              <p class="icon-text">Connect Anyware</p>
+            </div>
+            <h3 class="free_header">$9 / mo</h3>
+            <button class="fre-btn">Select</button>
+          </div>
+          <div class="pricing__card">
+            <img src="./assets/images/Premium.png" alt="free" />
+            <h4 class="free-text">Premium Plan</h4>
+            <div class="free-icons">
+              <i class="fa-solid fa-check"></i>
+              <p class="icon-text">Unlimited Bandwitch</p>
+            </div>
+            <div class="free-icons">
+              <i class="fa-solid fa-check"></i>
+              <p class="icon-text">Encrypted Connection</p>
+            </div>
+            <div class="free-icons">
+              <i class="fa-solid fa-check"></i>
+              <p class="icon-text">Yes Traffic Logs</p>
+            </div>
+            <div class="free-icons">
+              <i class="fa-solid fa-check"></i>
+              <p class="icon-text">Works on All Devices</p>
+            </div>
+            <div class="free-icons">
+              <i class="fa-solid fa-check"></i>
+              <p class="icon-text">Connect Anyware</p>
+            </div>
+            <div class="free-icons">
+              <i class="fa-solid fa-check"></i>
+              <p class="icon-text">Get New Features</p>
+            </div>
+            <h3 class="free_header">$12 / mo</h3>
+            <button class="fre-btn">Select</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--pricing section done-->
+    <script src="/js/main.js"></script>
+  </body>
+</html>
