@@ -1,0 +1,58 @@
+.help__card {
+  padding: 36px 30px;
+  margin: 0 auto;
+  border-radius: 10px;
+  border: 2px solid #f53838;
+  background: #fff;
+  margin: 60px 0px 75px;
+}
+.help-card__customer {
+  padding-top: 37px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.help-text h4 {
+  color: #0b132a;
+  text-align: center;
+  font-family: Rubik;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px;
+}
+.help-text p {
+  color: #4f5665;
+  text-align: center;
+  font-family: Rubik;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+}
+.help__texts p {
+  width: 98%;
+  color: #0b132a;
+  font-family: Rubik;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+}
+.help__num {
+  color: #0b132a;
+  font-family: Rubik;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+}
+.star {
+  color: #fea250;
+  border-radius: 70%;
+}
+.help__num {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}

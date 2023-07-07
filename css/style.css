@@ -12,6 +12,8 @@
 @import "./pages/feature.css";
 @import "./pages/pricing.css";
 @import "./pages/testamonia.css";
+@import "./pages/pricing.css";
+@import "./pages/help.css";
 
 @import "./states/active.css";
 @import "./states/hidden.css";

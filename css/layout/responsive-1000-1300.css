@@ -44,6 +44,13 @@
     border-radius: 10px;
     background: #fff;
   }
+  .help__cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 50px;
+  }
+  .help-card__customer {
+  }
 
   .user {
     padding: 0px 10px 0px 60px;
