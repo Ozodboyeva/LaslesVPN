@@ -12,13 +12,25 @@
     align-items: center;
     margin-top: 20px;
   }
-
+  .test__header {
+    width: 40%;
+  }
+  .test__text {
+    width: 50%;
+  }
   .features__texts {
     width: 67%;
   }
   .green {
     margin-top: 15px;
   }
+  .testamanoi__social {
+    gap: 47px;
+  }
+  .testamanoi__social img {
+    width: 100%;
+  }
+
   .pricing__cards {
     grid-template-columns: repeat(3, 1fr);
   }

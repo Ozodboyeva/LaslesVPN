@@ -1,0 +1,37 @@
+#testimonia {
+  padding-top: 15px;
+}
+.test__header {
+  width: 95%;
+  margin: 0 auto;
+  color: #0b132a;
+  text-align: center;
+  font-family: Rubik;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 50px;
+}
+.test__text {
+  margin-top: 20px;
+  margin: 0 auto;
+  width: 90%;
+  color: #4f5665;
+  text-align: center;
+  font-family: Rubik;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+}
+.map img {
+  margin-top: 90px;
+  width: 100%;
+}
+.testamanoi__social {
+  display: flex;
+  margin-top: 40px;
+}
+.testamanoi__social img {
+  width: 20%;
+}
